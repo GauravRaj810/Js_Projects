@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: none;
+    background-color: none;
+}
+
+body{
+    font-family: "DM Sans", serif;
+}
+
+/* --------------------------- Utility classes ------------ */
+
+.btn{
+    color: white;
+    background: transparent;
+    padding: 13px 16px;
+    border: 1px solid white;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: black;
+    background: #03fcf0;
+}
+.btn-headline{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+/* -------------------------------- Nav Bar ------------------ */
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    height: 60vh;
+    background: url(/image/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+     
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.nav-bar{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.nav-items{
+    display: flex;
+    gap: 60px;
+}
+.headline{
+    text-align: center;
+    max-width: 800px;
+    margin:  auto ;
+}
+.headline-title{
+    margin-bottom: 15px;
+}
+
+/* -------------------- Todo Section -------------- */
+.todo-section{
+    text-align: center;
+    margin: 60px auto 90px auto;
+}
+.bg-dark{
+    background: #000;
+    color: white;
+}
+.todo-section-title{
+    margin-bottom: 10px;
+}
+.todo-list{
+    text-align: left;
+    font-size: 14px;
+}
+.todo-list ul li{
+    margin-top: 15px;
+    padding: 15px;
+    background: #444;
+    color: cyan;
+    text-transform: capitalize;
+
+}
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.form-todo input{
+    width: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 15px;
+}
+.form-todo input[type="submit"]{
+    width: 20%;
+    background: rgb(44, 55, 63);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-todo input[type="submit"]:hover{
+    color: black;
+    background: #03fcf0;
+
+}
+/* -------------- SignUp Section ------------------- */
+.signup-section{
+    text-align: center;
+    background: rgba(212, 210, 210, 0.733);
+    padding: 15px;
+}
+.signup-form{
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+.signup-form label{
+    display: block;
+}
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+.form-group{
+    margin-top: 16px;
+}
+.signup-form textarea{
+    width: 100%;
+}
+
+.signup-btn{
+    max-width: 80px;
+    background: rgb(44, 55, 63);
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin:10px auto 0 auto;
+}
+.signup-btn:hover{
+    color: black;
+    background: #03fcf0;
+
+}
