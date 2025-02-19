@@ -8,7 +8,7 @@ const nodeElements = document.querySelectorAll("a");
 
 // }
 
-// using forEach Loop - 
-nodeElements.forEach((nodeElement)=>{
+// using forEach Loop -     
+nodeElements.forEach((nodeElement)=>{ // here forEach works bcz of nodeList 
     nodeElement.style.color = 'red'
 })

@@ -10,8 +10,7 @@ toggleBtn.addEventListener("click", function () {
        }else {
                sidebar.classList.add("show-sidebar");
            }       for checking*/
-
-    sidebar.classList.toggle("show-sidebar");
+    sidebar.classList.toggle("show-sidebar");   // instead of if- else used toggle property 
 }); 
 closeBtn.addEventListener("click", function () {
     sidebar.classList.remove("show-sidebar")

@@ -1,6 +1,5 @@
 // item - 
 const menu = [
-    
     {
       id: 1,
       title: "buttermilk pancakes",
@@ -88,6 +87,7 @@ const menu = [
   window.addEventListener("DOMContentLoaded" , function(){
      displayMenuItems(menu);   // filtering is got easier here 
   });
+  
    //filter items -    
    filterBtns.forEach(function (btn){
     btn.addEventListener("click" , function(e){
