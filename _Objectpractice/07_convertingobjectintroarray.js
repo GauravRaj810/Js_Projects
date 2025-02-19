@@ -1,4 +1,4 @@
-// converting object into js -- 
+// converting object into array  -- 
 // If you have an object and want to convert it into an array of key-value pairs, you can use Object.entries().
 // const user = {
 //     name: "Alice",

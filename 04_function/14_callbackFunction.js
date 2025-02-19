@@ -7,7 +7,7 @@
 
 // a function call another function while comleting its work ... 
 function greet(name, Callback){
-    console.log("hey i am greet function");
+    console.log("hey i am greet function" , "and my Name is" , name);
     Callback(); // calling the callback function 
 }
 function sayBye(){  

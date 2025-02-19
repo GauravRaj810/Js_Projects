@@ -3,7 +3,6 @@
 // for example - 
 function myApp(){
     const myVar = "Value1";
-
     function myFunc(){
         // const myVar = "value35";
         console.log("inside myFunc" , myVar);

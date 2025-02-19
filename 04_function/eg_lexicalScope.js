@@ -6,8 +6,6 @@ function myApp(){
         // const age = 19;  // if i remove this then it takes the outer scope variabel 
         console.log("Hello i am myAppchild" , age);
     }
-
     myAppchild();
 }
-
 myApp();
